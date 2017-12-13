@@ -20,7 +20,7 @@
     color: #aaa;
 }
 
-.display>div: first-child {
+.display .title {
     text-align: center;
     text-transform: uppercase;
 }
