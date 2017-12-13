@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>KoinexTicker</title>
@@ -15,9 +16,21 @@
     }
   </script>
 </head>
-<body onload="onLoad()">
-  <p>Koinex.in Ticker</p>
 
+<body onload="onLoad()">
+  <div class="container">
+    <div>
+      <div>Crypto Currency Monitor for Koinex.in Exchange</div>
+      <div>
+        <span>INR</span>
+        <span>47500</span>
+      </div>
+    </div>
+    <div>
+      <div><input type="checkbox" id="isNotificationOn" /> Enable notification</div>
+    </div>
+  </div>
   <script src="/service-worker.js" type="text/javascript"></script>
 </body>
+
 </html>
