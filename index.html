@@ -9,8 +9,13 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="manifest" href="/manifest.json">
   <script src="/script.js" type="text/javascript"></script>
+  <script>
+    function onLoad() {
+      requestCurrencyInfo();
+    }
+  </script>
 </head>
-<body>
+<body onload="onLoad()">
   <p>Koinex.in Ticker</p>
 
   <script src="/service-worker.js" type="text/javascript"></script>
