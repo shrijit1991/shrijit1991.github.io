@@ -7,6 +7,7 @@ function requestCurrencyInfo() {
                     response.json()
                         .then(obj => {
                             console.log(obj);
+                            document.querySelector('#value').innerText = obj.prices.ETH;
                         })
                 }
                 else {
