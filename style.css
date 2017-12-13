@@ -1,0 +1,15 @@
+.container {
+    width: 480px;
+    margin: 25px auto;
+    font-size: 18px;
+}
+
+.info span {
+    font-size: 48px;
+    color: #222;
+}
+
+.info>span {
+    font-size: 12px;
+    color: #aaa;
+}
