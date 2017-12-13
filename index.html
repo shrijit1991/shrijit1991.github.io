@@ -20,7 +20,7 @@
 
 <body onload="onLoad()">
   <div class="container">
-    <div>
+    <div class="display">
       <div>Crypto Currency Monitor for Koinex.in Exchange</div>
       <div class="info">
         <span>INR</span>
@@ -28,8 +28,8 @@
       </div>
     </div>
     <div>
-      <div><input type="text" id="threshold" /></div>
-      <div><input type="checkbox" id="isNotificationOn" /> Enable notification</div>
+      <div id="threshold"><input type="text" /></div>
+      <div id="notificationToggle"><input type="checkbox" id="isNotificationOn" /> Enable notification</div>
     </div>
   </div>
   <script src="/service-worker.js" type="text/javascript"></script>
