@@ -15,8 +15,8 @@
     color: #222;
 }
 
-.info>span {
-    font-size: 12px;
+.info span:first-child {
+    font-size: 14px;
     color: #aaa;
 }
 
@@ -34,7 +34,7 @@
 
 #notificationToggle {
     padding: 5px;
-    width: 20px;
+    width: 120px;
     display: block;
     margin: 0 auto;
 }
