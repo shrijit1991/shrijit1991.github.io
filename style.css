@@ -13,6 +13,7 @@
 .info span {
     font-size: 48px;
     color: #222;
+    margin: 0 5px;
 }
 
 .info span:first-child {
@@ -34,7 +35,7 @@
 
 #notificationToggle {
     padding: 5px;
-    width: 120px;
+    width: 180px;
     display: block;
     margin: 0 auto;
 }
